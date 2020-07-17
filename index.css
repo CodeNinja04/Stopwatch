@@ -1,0 +1,99 @@
+body {
+    background-image: url("https://mcdn.wallpapersafari.com/medium/50/89/uPWlJw.jpg");
+    /* background-image: url("https://i.pinimg.com/originals/cf/70/17/cf701732ece053881825d9ae9b96129c.jpg");*/
+    /*background-image: url("https://cdn.pixabay.com/photo/2016/11/09/07/06/babu-1810144_1280.jpg");
+    background-image: url("https://freedesignfile.com/upload/2016/09/Shiny-blue-background-template-vector.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.main {
+    border: 10px solid #007af4;
+    width: 400px;
+    height: 350px;
+    margin-left: 420px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    display: inline-flexbox;
+    border-style: double;
+}
+
+body h1 {
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: #007af4;
+    position: relative;
+}
+
+body h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #007af4;
+    position: relative;
+}
+
+body p {
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    font-weight: bolder;
+    color: hsl(197, 100%, 54%);
+    position: relative;
+    text-shadow: 3px 7px 10px rgb(22, 179, 226);
+    transform: rotateY(45deg);
+    animation: rotateAnimation 4s linear infinite;
+}
+
+.btn {
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+#start,
+#stop,
+#reset {
+    background-color: #007af4;
+    margin: 20px 10px 1px 2px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+
+#start:hover,
+#stop:hover,
+#reset:hover {
+    background-color: white;
+    color: black;
+}
+
+#start,
+#stop,
+#reset {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 10px rgb(22, 179, 226);
+    text-shadow: 0px 0px 10px rgb(22, 179, 226);
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
