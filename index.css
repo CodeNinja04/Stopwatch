@@ -48,7 +48,7 @@ body p {
     position: relative;
     text-shadow: 3px 7px 10px rgb(22, 179, 226);
     transform: rotateY(45deg);
-    animation: rotateAnimation 4s linear infinite;
+    animation: rotateAnimation 2s linear infinite;
 }
 
 .btn {
@@ -91,9 +91,9 @@ body p {
 
 @keyframes rotateAnimation {
     from {
-        transform: rotateY(0deg);
+        transform: rotateY(-90deg);
     }
     to {
-        transform: rotateY(360deg);
+        transform: rotateY(90deg);
     }
 }
